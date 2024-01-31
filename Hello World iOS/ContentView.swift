@@ -18,6 +18,14 @@ struct ContentView: View {
     }
     
     var body: some View {
+        
+        List {
+            Text("Line 1")
+            Text("Line 2")
+        }
+        
+        
+        
         VStack {
             
             Spacer()
